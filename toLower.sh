@@ -5,8 +5,8 @@
 #!/bin/bash
 
 toLower(){
-echo $* | tr '[A-Z]' '[a-z]'; #gi zima site fajlovi od cmd i so naredbata transform t.e tr gi transformira golemite bukvi vo mali
+echo $* | tr '[A-Z]' '[a-z]'; #gi zima preneseni karakteri od main i so naredbata transform t.e tr gi transformira golemite bukvi vo mali
 }
 
 #povikuvanje na funkcijata
-toLower $*
+toLower $*  #gi zima site karakteri od cmd  i gi predava na funkcijata toLower
